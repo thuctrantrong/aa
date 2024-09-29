@@ -1,0 +1,121 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #131312;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.wrapper h1 {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.header-box p {
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto 60px auto;
+    max-width: 390px;
+}
+
+.wrapper {
+    width: 734px;
+    height: 640px;
+    border: 1px solid #fff;
+    background: #111727;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.header-box .logo {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 350px;
+    height: 50px;
+    margin: 30px 40px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+.wrapper .btn-sendlink {
+    width: 350px;
+    height: 50px;
+    border-radius: 40px;
+    background: #36e2ec;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+}
+
+.wrapper .btn-sendlink:hover {
+    border: 2px solid #36e2ec;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(54, 226, 236, 0.4);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.header-box .login-link {
+    font-size: 16.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-box .login-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header-box .login-link p a:hover {
+    text-decoration: underline;
+    color: #36e2ec;
+}

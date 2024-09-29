@@ -1,0 +1,160 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #131312;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.wrapper h1 {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper {
+    width: 734px;
+    height: 640px;
+    border: 1px solid #fff;
+    background: #111727;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.custom-line {
+    height: 0.01px;
+    background: rgba(255, 255, 255, 0.01);
+    width: 100%;
+    margin: 20px 0 20px auto;
+
+}
+.header-box .logo {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.wrapper .btn-email {
+    width: 350px;
+    height: 50px;
+    border-radius: 40px;
+    position: relative;
+    background: #111727;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.wrapper .header-box {
+    position: relative;
+}
+
+.gmail .fab {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.wrapper .input-box {
+    position: relative;
+    width: 350px;
+    height: 50px;
+    margin: 30px 40px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+.wrapper .btn-email:hover {
+    border: 2px solid #fff;
+
+}
+
+.wrapper .btn-register {
+    width: 350px;
+    height: 50px;
+    border-radius: 40px;
+    background: #36e2ec;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+}
+
+.wrapper .btn-register:hover {
+    border: 2px solid #36e2ec;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(54, 226, 236, 0.4);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.wrapper .login-link {
+    font-size: 16.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link p a:hover {
+    text-decoration: underline;
+    color: #36e2ec;
+}
